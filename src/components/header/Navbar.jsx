@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div className="navbar py-8">
       <div className="flex-1">
-        <a href="#" className="text-4xl text-[#111111] font-bold">Knowledge Cafe</a>
+        <a href="#" className=" text-2xl lg:text-4xl text-[#111111] font-bold">Knowledge Cafe</a>
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">

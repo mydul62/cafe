@@ -1,8 +1,8 @@
 const Card = ({ cardDatas,readingTime }) => {
   return (
     <div>
-      <div className="mb-6 py-5 px-10 bg-[#6047EC1A] rounded-xl">
-        <h2 className="text-center text-[#6047EC] text-xl font-bold">
+      <div className="mb-6 py-5 px-1 lg:px-10 bg-[#6047EC1A] rounded-xl">
+        <h2 className="text-center text-[#6047EC]  text-xl font-bold">
           Spent time on read : {readingTime} min
         </h2>
       </div>

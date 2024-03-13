@@ -23,7 +23,7 @@ const BlogItem = ({ blogItemData,handleCardAdd }) => {
             </div>
           </div>
           <div className=" space-y-5">
-            <p className=" text-4xl font-semibold">
+            <p className=" text-xl lg:text-4xl font-semibold">
               {blogItemData.title}
             </p>
             <div className=" flex gap-3">

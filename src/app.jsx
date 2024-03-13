@@ -25,9 +25,9 @@ export function App() {
       <div className=" max-w-7xl mx-auto">
         <Navbar></Navbar>
         <hr className=" mb-6" />
-        <div className="grid grid-cols-6 gap-6">
+        <div className="lg:grid grid-cols-1 flex flex-col-reverse  lg:grid-cols-6 gap-6">
           <Items handleCardAdd={handleCardAdd} itemsData={itemsData}></Items>
-          <div className="col-span-2 space-y-6">
+          <div className=" col-span-full lg:col-span-2 space-y-6">
         <Card readingTime={readingTime} cardDatas={cardDatas}></Card>
         </div>
         </div>
