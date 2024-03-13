@@ -11,7 +11,7 @@ const BlogItem = ({ blogItemData,handleCardAdd }) => {
           <div className=" flex justify-between">
             <div className=" flex gap-2">
               <div>
-                <img className=" w-10" src="../src/assets/girl1.jpg" alt="" />
+                <img className=" w-10" src={blogItemData.author_img} alt="" />
               </div>
               <div>
                 <h3 className=" text-xl font-bold">{blogItemData.author_name}</h3>
